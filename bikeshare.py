@@ -117,7 +117,7 @@ def load_data(city, month, day):
 
 #Function to calculate all the time-related statistics for the chosen data
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel.
+    """Displays statistics on the most frequent times(per day, week and month) of travel.
 
     Args:
         param1 (df): The data frame you wish to work with.
