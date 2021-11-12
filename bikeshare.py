@@ -175,7 +175,7 @@ def station_stats(df):
     #Uses mode method to find the most common end station
     common_end_station = df['End Station'].mode()[0]
 
-    print(f"\nThe most commonly used end station: {common_end_station}")
+    print(f"\nThe most commonly used end station is: {common_end_station}")
 
     #Uses str.cat to combine two columsn in the df
     #Assigns the result to a new column 'Start To End'
